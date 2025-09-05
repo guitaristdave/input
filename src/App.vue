@@ -1,6 +1,9 @@
 <template>
   <div id="app">
+    <h2>image</h2>
     <InputComp />
+    <h2>any</h2>
+    <InputComp :is-income-cert="true"/>
   </div>
 </template>
 
